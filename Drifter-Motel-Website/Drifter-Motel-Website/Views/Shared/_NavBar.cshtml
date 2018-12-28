@@ -1,0 +1,22 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            @*<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>*@
+            @Html.ActionLink("The Drifter Motel & Restaurant", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+        </div>
+        <div>
+            <nav class="nav custom font-weight-bold">
+                <a class="nav-link" href="#">Photos</a>
+                <a class="nav-link" href="#">Reviews</a>
+                <a class="nav-link" href="#">Things To Do</a>
+                <a class="nav-link" href="#">Book A Room</a>
+                <a class="nav-link" href="#">Contact Us</a>
+            </nav>
+            @*@Html.Partial("_LoginPartial")*@
+        </div>
+    </div>
+</div>
