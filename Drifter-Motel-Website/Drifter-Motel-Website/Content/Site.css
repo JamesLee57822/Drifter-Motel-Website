@@ -34,3 +34,21 @@ textarea {
     color: chocolate;
 }
 
+.container.body-content{
+    max-width: 1500px;
+    text-align: center;
+}
+
+.indexMaxWidth {
+    max-width: 1200px;
+    display: inline-block;
+}
+
+#jumboTextAlign{
+    text-align: left;
+}
+
+#jumboPadding{
+    padding-left: 20px;
+}
+
