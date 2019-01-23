@@ -41,6 +41,14 @@ textarea {
 
 .indexMaxWidth {
     max-width: 1200px;
+}
+
+.indexMaxWidthFlex{
+    max-width: 1200px;
+    display: inline-flex;
+}
+
+.jumbotron{
     display: inline-block;
 }
 
@@ -50,5 +58,9 @@ textarea {
 
 #jumboPadding{
     padding-left: 20px;
+}
+
+.displayNone{
+    display: none !important;
 }
 
